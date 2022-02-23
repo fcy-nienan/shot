@@ -31,9 +31,9 @@ public class Bullet : MonoBehaviour
 
         ObjectPool.Instance.PushObject(gameObject);
 
-        if (other.gameObject.name.Contains("enemy"))
-        {
-            ObjectPool.Instance.PushObject(other.gameObject);
-        }
+        // if (other.gameObject.name.Contains("enemy"))
+        // {
+        //     ObjectPool.Instance.PushObject(other.gameObject);
+        // }
     }
 }

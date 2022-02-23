@@ -37,7 +37,8 @@ public class CreateEnemy : MonoBehaviour
     void create()
     {
         float y_position = Random.Range(-5f, 5f);
+        float x_position = Random.Range(5f, 9.5f);
         GameObject bullet = ObjectPool.Instance.GetObject(enemy);
-        bullet.transform.position = new Vector2(9.5f, y_position);
+        bullet.transform.position = new Vector2(x_position, y_position);
     }
 }

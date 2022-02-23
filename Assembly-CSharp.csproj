@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\BulletTracer.cs" />
      <Compile Include="Assets\Scripts\Shotgun.cs" />
      <Compile Include="Assets\Scripts\Rifle.cs" />
+     <Compile Include="Assets\Scripts\PlayerColider.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.28f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

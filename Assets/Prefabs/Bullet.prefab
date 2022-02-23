@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2866389288798764952}
   m_Layer: 8
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: "\u5B50\u5F39"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49,6 +49,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -73,8 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: -8684525837257662277, guid: a541efad341549a41848c320836f0dc1,
-    type: 3}
+  m_Sprite: {fileID: -8684525837257662277, guid: a541efad341549a41848c320836f0dc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -135,5 +135,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
-  explosionPrefab: {fileID: 3217125097851079088, guid: 2be4eb6338a97ad42bf2801937e8fb6b,
-    type: 3}
+  explosionPrefab: {fileID: 3217125097851079088, guid: 2be4eb6338a97ad42bf2801937e8fb6b, type: 3}

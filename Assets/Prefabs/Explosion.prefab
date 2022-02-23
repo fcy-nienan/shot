@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 220457228601546966}
   m_Layer: 0
   m_Name: Explosion
-  m_TagString: Untagged
+  m_TagString: "\u5B50\u5F39"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,6 +48,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -72,8 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 4639283700023637463, guid: 1626314bd5d0a514aa1e14f9d0ef67af,
-    type: 3}
+  m_Sprite: {fileID: 4639283700023637463, guid: 1626314bd5d0a514aa1e14f9d0ef67af, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

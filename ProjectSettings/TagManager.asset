@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
+  - "\u5B50\u5F39"
   layers:
   - Default
   - TransparentFX
