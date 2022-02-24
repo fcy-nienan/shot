@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
-    public float interval;
+    public float interval = 0.05f;
     public GameObject bulletPrefab;
     public GameObject shellPrefab;
     protected Transform muzzlePos;

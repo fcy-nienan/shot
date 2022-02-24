@@ -13,6 +13,8 @@ public class CreateEnemy : MonoBehaviour
     public float interval = 0.5f;
     public float timer = 0.5f;
     // Start is called before the first frame update
+
+    private bool stop_create = false;
     void Start()
     {
         
@@ -21,6 +23,13 @@ public class CreateEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKey("p"))
+        {
+            this.stop_create = true;
+        }else if (Input.GetKey("o"))
+        {
+            this.stop_create = false;
+        }
         if (timer != 0)
         {
             timer -= Time.deltaTime;
@@ -30,7 +39,10 @@ public class CreateEnemy : MonoBehaviour
             if (timer == 0)
             {
                 timer = interval;
-                create();
+                if (!stop_create)
+                {
+                    create();
+                }
             }
     }
 

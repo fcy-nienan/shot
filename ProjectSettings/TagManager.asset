@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Wall
   - "\u5B50\u5F39"
+  - enemy
   layers:
   - Default
   - TransparentFX

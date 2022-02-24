@@ -18,6 +18,11 @@ public class ObjectPool
             return instance;
         }
     }
+
+    public static void restart_object_pool()
+    {
+        instance = null;
+    }
     public GameObject GetObject(GameObject prefab)
     {
         GameObject _object;

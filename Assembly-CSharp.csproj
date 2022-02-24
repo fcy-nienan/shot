@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\ObjectPool.cs" />
      <Compile Include="Assets\Scripts\Pistol.cs" />
      <Compile Include="Assets\Scripts\CreateEnemy.cs" />
+     <Compile Include="Assets\Scripts\Blood.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\Gun.cs" />
      <Compile Include="Assets\Scripts\Wall.cs" />
